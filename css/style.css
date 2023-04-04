@@ -1,0 +1,54 @@
+@import 'font.css';
+
+:root {
+    --Poppins: 'Poppins';
+    --Inter: 'Inter';
+    --black: #000;
+    --white: #fff;
+    --second-bg-color: #F5F5F5;
+    --grey: #D9D9D9;
+    --red: #963B40;
+    --btn-bg: #000;
+    --btn-border: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--Poppins), sans-serif;
+    position: relative;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+}
+
+.bg-second {
+    background: var(--second-bg-color);
+}
+
+.bg-main {
+    background: var(--second-bg-color);
+}
