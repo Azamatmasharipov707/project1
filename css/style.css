@@ -53,6 +53,26 @@ img {
     background: var(--second-bg-color);
 }
 
+.btn-flat {
+    max-width: 120px;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--white);
+    text-transform: uppercase;
+    background: var(--black);
+    cursor: pointer;
+    border: 2px solid var(--black);
+    transition: .5s;
+}
+
+.btn-flat:hover {
+    background: var(--white);
+    color: var(--black);
+    border: 2px solid var(--black);
+}
+
 /* ============================= Header start ============================ */
 
 .top__header ul {
@@ -173,6 +193,7 @@ ul.list > li:last-child {
     position: absolute;
     top: calc(100% + 100px);
     visibility: hidden;
+    background: var(--white);
     opacity: 0;
     left: 0;
     z-index: 2;
@@ -207,4 +228,34 @@ ul.list > li:last-child {
     padding-left: 10px;
     color: var(--red);
     border-bottom: 2px dashed var(--red);
+}
+
+/* ======================================= Main start ================================= */
+
+/* ------------------------ Slide start ------------------------- */
+
+#slider {
+    height: 100vh;
+    position: relative;
+}
+.slide {
+    position: absolute;
+    visibility: hidden;
+    overflow: hidden;
+}
+.slide.active {
+    visibility: visible;
+}
+.slide__info-txt {
+    font-size: 17px;
+    font-weight: 600;
+}
+.slide__info-title {
+    font-size: 59px;
+    margin: 10px 0 30px;
+}
+.slide__info-text {
+    line-height: 22px;
+    color: #575757;
+    margin-bottom: 31px;
 }
