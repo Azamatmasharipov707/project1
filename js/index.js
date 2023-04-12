@@ -20,20 +20,16 @@ const showSlide = () => {
 const nextSlide = () => {
     if(slideIndex + 1 === slides.length) {
         slideIndex = 0
-        console.log(`if${slideIndex}`)
     } else {
         slideIndex = slideIndex + 1
-        console.log(`else${slideIndex}`)
     }
 }
 
 const prevSlide = () => {
     if(slideIndex - 1 < 0) {
         slideIndex = slideIndex + slides.length - 1;
-        console.log(`if${slideIndex}`)
     } else {
         slideIndex = slideIndex - 1;
-        console.log(`else${slideIndex}`)
     }
 }
 
