@@ -65,12 +65,21 @@ img {
     cursor: pointer;
     border: 2px solid var(--black);
     transition: .5s;
+    text-align: center;
 }
 
 .btn-flat:hover {
     background: var(--white);
     color: var(--black);
     border: 2px solid var(--black);
+}
+
+.title {
+    font-size: 35px;
+    font-family: var(--Poppins);
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 60px;
 }
 
 /* ============================= Header start ============================ */
@@ -362,4 +371,85 @@ ul.list > li:last-child {
 .promation__text button {
     max-width: 170px;
     width: 100%;
+}
+
+/* ------------------------------- Product start -------------------------- */
+
+.product {
+    margin: 80px 0 75px;
+}
+
+.product__card-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 308px;
+}
+.product__card-img img {
+    max-height: 100%;
+}
+.product__card-img img:last-of-type {
+    display: none;
+}
+
+.product__card:hover .product__card-img img:first-of-type {
+    display: none;
+}
+.product__card:hover .product__card-img img:last-of-type {
+    display: block;
+}
+.product__card-info {
+    text-align: center;
+}
+.product__card-btns {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    position: relative;
+    transform: translateY(20px);
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+.product__card:hover .product__card-btns {
+    transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
+}
+
+.product__card-btn:first-of-type {
+    width: 120px;
+    flex-shrink: 0;
+}
+.product__card-btn:nth-of-type(2),
+.product__card-btn:last-of-type {
+    width: 40px;
+    flex-shrink: 0;
+}
+.product__card-name {
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: var(--Poppins);
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.product__card-price span del {
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.current__price {
+    color: var(--red);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--Poppins);
+}
+
+.product__footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
 }
