@@ -505,8 +505,11 @@ ul.list > li:last-child {
 .allproduct-menu li a{
     color: var(--all-product);
     padding: 10px;
+    font-size: 15px;
 }
 
 .allproduct-menu li a i {
-    bor
+    border: 2px solid #000000;
 }
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz = All product desctripsion = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz */
