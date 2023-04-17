@@ -492,3 +492,15 @@ ul.list > li:last-child {
     justify-content: center;
     margin-top: 100px;
 }
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz = All product = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz */
+.allproduct {
+    margin-top: 23px;
+}
+.allproduct-menu {
+    display: flex;
+}
+
+.allproduct-menu li a{
+    color: var(--black);
+}
