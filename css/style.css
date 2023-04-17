@@ -10,6 +10,7 @@
     --red: #963B40;
     --btn-bg: #000;
     --btn-border: #000;
+    --all-product: #000000;
 }
 
 * {
@@ -502,5 +503,10 @@ ul.list > li:last-child {
 }
 
 .allproduct-menu li a{
-    color: var(--black);
+    color: var(--all-product);
+    padding: 10px;
+}
+
+.allproduct-menu li a i {
+    bor
 }
