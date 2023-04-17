@@ -453,3 +453,42 @@ ul.list > li:last-child {
     justify-content: center;
     margin-top: 130px;
 }
+
+/* ------------------------------- Headphone start ------------------------------ */
+.headphone {
+    background: var(--second-bg-color);
+    margin-bottom: 99px;
+}
+
+.headphone__desc h2 {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.headphone__desc p {
+    font-size: 15px;
+    line-height: 22px;
+    margin: 21px 0 55px;
+}
+
+/* ----------------------------------- Blog start ----------------------------- */
+.blog {
+    margin-bottom: 90px;
+}
+
+.blog__desc h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.blog__desc p {
+    font-size: 17px;
+    line-height: 26px;
+    margin: 43px 0 75px;
+}
+
+.blog__footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}

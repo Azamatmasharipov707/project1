@@ -118,6 +118,7 @@ const products = [
 
 
 const productList = document.querySelector('#latest-product');
+const bestProductList = document.querySelector('#best-product');
 
 products.forEach((e) => {
     let product = `
@@ -144,4 +145,5 @@ products.forEach((e) => {
     `
 
     productList.insertAdjacentHTML('beforeend', product);
+    bestProductList.insertAdjacentHTML('afterbegin', product);
 })
