@@ -94,13 +94,13 @@ img {
     padding: 6px 0;
 }
 
-ul.list > li {
+ul.list>li {
     margin-right: 10px;
     padding-right: 10px;
     border-right: 1px solid var(--black);
 }
 
-ul.list > li:last-child {
+ul.list>li:last-child {
     border-right: none;
 }
 
@@ -127,11 +127,11 @@ ul.list > li:last-child {
     z-index: 2;
 }
 
-.dropdown__content > li > a {
+.dropdown__content>li>a {
     padding: 5px 10px;
 }
 
-.dropdown__content > li > a:hover {
+.dropdown__content>li>a:hover {
     color: var(--red);
 }
 
@@ -186,18 +186,22 @@ ul.list > li:last-child {
     justify-content: center;
     padding: 7px 0;
 }
+
 .main__menu {
     display: flex;
 }
-.main__menu > li > a {
+
+.main__menu>li>a {
     color: var(--black);
     font-weight: 600;
     text-transform: uppercase;
     margin: 0 20px;
 }
+
 .mega__dropdown a i {
     transition: .5s;
 }
+
 .mega__content {
     position: absolute;
     top: calc(100% + 100px);
@@ -211,21 +215,25 @@ ul.list > li:last-child {
     padding: 45px 40px;
     transition: 500ms;
 }
+
 .mega__dropdown:hover .mega__content {
     visibility: visible;
     opacity: 1;
     top: 100%;
 }
-.mega__dropdown:hover a > i {
+
+.mega__dropdown:hover a>i {
     transform: rotate(180deg);
 }
+
 .mega__content h3 {
     font-family: var(--Inter);
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 30px;
 }
-.box > ul > li > a {
+
+.box>ul>li>a {
     font-family: var(--Inter);
     color: #313131;
     padding: 10px 0;
@@ -233,7 +241,8 @@ ul.list > li:last-child {
     border-bottom: 2px dashed #E9E9E9;
     transition: .2s ease-in-out;
 }
-.box > ul > li > a:hover {
+
+.box>ul>li>a:hover {
     padding-left: 10px;
     color: var(--red);
     border-bottom: 2px dashed var(--red);
@@ -247,33 +256,40 @@ ul.list > li:last-child {
     height: 100vh;
     position: relative;
 }
+
 #slider .container {
     height: 100%;
     position: relative;
 }
+
 .slide {
     position: absolute;
     visibility: hidden;
     overflow: hidden;
     height: 0;
 }
+
 .slide.active {
     visibility: visible;
     height: 100%;
 }
+
 .slide__info-txt {
     font-size: 17px;
     font-weight: 600;
 }
+
 .slide__info-title {
     font-size: 59px;
     margin: 10px 0 30px;
 }
+
 .slide__info-text {
     line-height: 22px;
     color: #575757;
     margin-bottom: 31px;
 }
+
 .slide__controll {
     position: absolute;
     top: 50%;
@@ -286,15 +302,19 @@ ul.list > li:last-child {
     cursor: pointer;
     transition: .5s;
 }
+
 #slider:hover .next {
     right: 75px;
 }
+
 #slider:hover .prev {
     left: 75px;
 }
+
 .next {
     right: -75px;
 }
+
 .prev {
     left: -75px;
 }
@@ -307,6 +327,7 @@ ul.list > li:last-child {
     visibility: hidden;
     transition: 0.8s;
 }
+
 .slide.active .top-down {
     transform: translateY(0);
     opacity: 1;
@@ -320,6 +341,7 @@ ul.list > li:last-child {
     visibility: hidden;
     transition: 0.8s;
 }
+
 .slide.active .right-left {
     transform: translateX(0);
     opacity: 1;
@@ -333,6 +355,7 @@ ul.list > li:last-child {
     visibility: hidden;
     transition: 0.8s;
 }
+
 .slide.active .down-top {
     transform: translateY(0);
     opacity: 1;
@@ -342,12 +365,15 @@ ul.list > li:last-child {
 .transiton-delay-2 {
     transition-delay: 0.2s;
 }
+
 .transiton-delay-4 {
     transition-delay: 0.4s;
 }
+
 .transiton-delay-6 {
     transition-delay: 0.6s;
 }
+
 .transiton-delay-8 {
     transition-delay: 0.8s;
 }
@@ -362,12 +388,15 @@ ul.list > li:last-child {
     height: 150px;
     object-fit: cover;
 }
+
 .promation__text {
     padding-left: 16px;
 }
+
 .promation__text h3 {
     margin-bottom: 38px;
 }
+
 .promation__text button {
     max-width: 170px;
     width: 100%;
@@ -386,9 +415,11 @@ ul.list > li:last-child {
     overflow: hidden;
     height: 308px;
 }
+
 .product__card-img img {
     max-height: 100%;
 }
+
 .product__card-img img:last-of-type {
     display: none;
 }
@@ -396,12 +427,15 @@ ul.list > li:last-child {
 .product__card:hover .product__card-img img:first-of-type {
     display: none;
 }
+
 .product__card:hover .product__card-img img:last-of-type {
     display: block;
 }
+
 .product__card-info {
     text-align: center;
 }
+
 .product__card-btns {
     display: flex;
     justify-content: center;
@@ -412,6 +446,7 @@ ul.list > li:last-child {
     opacity: 0;
     transition: all .3s ease-in-out;
 }
+
 .product__card:hover .product__card-btns {
     transform: translateY(0);
     visibility: visible;
@@ -422,11 +457,13 @@ ul.list > li:last-child {
     width: 120px;
     flex-shrink: 0;
 }
+
 .product__card-btn:nth-of-type(2),
 .product__card-btn:last-of-type {
     width: 40px;
     flex-shrink: 0;
 }
+
 .product__card-name {
     padding-top: 10px;
     font-size: 20px;
@@ -491,4 +528,40 @@ ul.list > li:last-child {
     display: flex;
     justify-content: center;
     margin-top: 100px;
+}
+
+/* ========================= section start M.Javohir ====================== */
+.allproducts__txt {
+    font-family: var(--Poppins);
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    line-height: 24px;
+    padding-left: 74px;
+    padding-right: 74px;
+}
+
+.allproducts__image1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 968px;
+    margin: 88px;
+}
+
+.allproducts__title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: var(--Poppins);
+    padding-left: 74px;
+    padding-right: 74px;
+}
+
+.allproducts__image2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
