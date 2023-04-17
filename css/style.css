@@ -10,6 +10,7 @@
     --red: #963B40;
     --btn-bg: #000;
     --btn-border: #000;
+    --all-product: #000000;
 }
 
 * {
@@ -530,6 +531,7 @@ ul.list>li:last-child {
     margin-top: 100px;
 }
 
+<<<<<<< HEAD
 /* ========================= section start M.Javohir ====================== */
 .allproducts__txt {
     font-family: var(--Poppins);
@@ -564,4 +566,44 @@ ul.list>li:last-child {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+=======
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz = All product = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz */
+.allproduct {
+    margin-top: 23px;
+}
+.allproduct-menu {
+    display: flex;
+}
+
+.allproduct-menu li a{
+    color: var(--all-product);
+    padding: 10px;
+}
+
+.allproduct-menu li a i {
+    color: #000;
+}
+
+
+/* =========================================All product images========================== */
+.allproduct__banner {
+    width: 420px;
+}
+
+.allproduct__images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.allproduct__img {
+    width: 80px;
+    height: 90px;
+    border: 1px solid var(--grey);
+    margin: 0 15px;
+    object-fit: cover;
+}
+
+.allproduct__imgs {
+    display: flex;
+>>>>>>> be817577976aac042d0cf390b9f48287323aa628
 }
