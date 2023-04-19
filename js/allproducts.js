@@ -10,10 +10,10 @@ images.forEach((e) => {
 const min = document.querySelector('.minus')
 const plus = document.querySelector('.plus')
 const indicator = document.querySelector('.amount__indicator')
-const num = indicator.innerHTML
 
-
-min.addEventListener('click', () => {
-    if (num == 0) {
+plus.addEventListener('click', () => {
+    if (indicator.innerHTML < 10) {
+        number = 2
     }
 })
+
