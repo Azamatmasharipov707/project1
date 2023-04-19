@@ -9,11 +9,17 @@ images.forEach((e) => {
 
 const min = document.querySelector('.minus')
 const plus = document.querySelector('.plus')
-const indicator = document.querySelector('.amount__indicator')
+let indicator = document.querySelector('.amount__indicator')
+let num = +indicator.innerHTML
 
 plus.addEventListener('click', () => {
     if (indicator.innerHTML < 10) {
-        number = 2
+        indicator.innerHTML++
     }
 })
 
+min.addEventListener('click', () => {
+    if (indicator.innerHTML > 0) {
+        indicator.innerHTML-- 
+    }
+})
