@@ -546,12 +546,6 @@ ul.list>li:last-child {
 }
 
 .allproduct-menu li a i {
-<<<<<<< HEAD
-    border: 2px solid #000000;
-}
-
-/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz = All product desctripsion = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz */
-=======
     color: #000;
 }
 
@@ -577,4 +571,40 @@ ul.list>li:last-child {
 .allproduct__imgs {
     display: flex;
 }
->>>>>>> be817577976aac042d0cf390b9f48287323aa628
+
+/* =========================================allproduct right====================== */
+.allproduct__main-title {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.reted {
+    margin-bottom: 34px;
+}
+.reted i {
+    color: #FFC700;
+}
+
+.allproduct__main-title2 {
+    font-size: 17px;
+    font-weight: 500;
+    color:#7C7B7B;
+    margin-bottom: 25px;
+}
+
+.allproduct__main-title2 span {
+    color: var(--black);
+
+}
+
+.allproduct__main-text {
+    font-size: 16px;
+    color: var(--black);
+    margin-bottom: 23px;
+}
+
+.allproduct__main-txt {
+    font-size: 29px;
+    color: #D94242;
+    margin-bottom: 15px;
+}
