@@ -67,50 +67,50 @@ slider.addEventListener('mouseleave', () => slidePlay = true)
 const products = [
     {
         name: 'JBL E55BT KEY BLACK',
-        image1: '/images/products/img-lg-black.png',
-        image2: '/images/products/img-lg-black-hover.webp',
+        image1: '/project1/Images/products/img-lg-black.png',
+        image2: '/project1/Images/products/img-lg-black-hover.webp',
         oldPrice: '$400',
         currentPrice: '$500'
     },
     {
         name: 'JBL JR 310BT',
-        image1: '/images/products/img-lg-blue.png',
-        image2: '/images/products/img-lg-blue-hover.png',
+        image1: '/project1/Images/products/img-lg-blue.png',
+        image2: '/project1/Images/products/img-lg-blue-hover.png',
         oldPrice: '$250',
         currentPrice: '$350'
     },
     {
         name: 'JBL TUNE 750BTNC',
-        image1: '/images/products/img-sm-red.png',
-        image2: '/images/products/img-lg-red-hover.webp',
+        image1: '/project1/Images/products/img-sm-red.png',
+        image2: '/project1/Images/products/img-lg-red-hover.webp',
         oldPrice: '$400',
         currentPrice: '$500'
     },
     {
         name: 'JBL Horizon',
-        image1: '/images/products/clock.png',
-        image2: '/images/products/clock-hover.webp',
+        image1: '/project1/Images/products/clock.png',
+        image2: '/project1/Images/products/clock-hover.webp',
         oldPrice: '$600',
         currentPrice: '$730'
     },
     {
         name: 'JBL Tune 220TWS',
-        image1: '/images/products/airpods.png',
-        image2: '/images/products/airpods-hover.png',
+        image1: '/project1/Images/products/airpods.png',
+        image2: '/project1/Images/products/airpods-hover.png',
         oldPrice: '$300',
         currentPrice: '$400'
     },
     {
         name: 'UA Project Rock',
-        image1: '/images/products/airpods-black.png',
-        image2: '/images/products/airpods-black-hover.png',
+        image1: '/project1/Images/products/airpods-black.png',
+        image2: '/project1/Images/products/airpods-black-hover.png',
         oldPrice: '$400',
         currentPrice: '$500'
     },
     {
         name: 'JBL Endurance SPRINT',
-        image1: '/images/products/earphone-red.webp',
-        image2: '/images/products/earphone-red-hover.webp',
+        image1: '/project1/Images/products/earphone-red.webp',
+        image2: '/project1/Images/products/earphone-red-hover.webp',
         oldPrice: '$450',
         currentPrice: '$530'
     },
