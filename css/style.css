@@ -589,3 +589,17 @@ ul.list>li:last-child {
 .allproduct__main-title2 span {
     color: var(--black);
 }
+
+.allproduct__right-btns {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+.allproduct__right-btns button {
+    width: 29px;
+    height: 29px;
+    background: var(--grey);
+    border: none;
+    border-radius: 50%;
+    font-size: 25px;
+}
