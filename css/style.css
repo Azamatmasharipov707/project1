@@ -531,6 +531,81 @@ ul.list>li:last-child {
     margin-top: 100px;
 }
 
+/* ======================== Footer section start ========================== */
+
+.footer {
+    background: var(--second-bg-color);
+}
+
+.footer__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 66px 0 124px 30px;
+
+}
+
+.nav__list-title{
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.footer__nav-link{
+    color: var(--black);
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 10px;
+
+}
+
+.right__section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+}
+
+.footer__logo{
+    font-size: 32px;
+    color: var(--black);
+    font-weight: 600;
+}
+
+.net__site{
+    margin: 12px;
+    color: var(--black);
+}
+
+.input__section{
+    /* padding: 16px 0 19px 17px; */
+    background: var(--white);
+    display: flex;
+}
+#email{
+    border: none;
+    font-size: 14px;
+    line-height: 15px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 16px;
+    outline: none;
+}
+
+.footer__btn{
+   font-size: 12px;
+   width: 96px;
+   height: 39px;
+   margin: 6px 7px 5px 0;
+   background: #BF3D3F;
+   border: none;
+   color: var(--white);
+   font-family: var(--Inter);
+   font-size: 12px;
+   font-weight: 400;
+   text-transform: uppercase;
+}
+
 /* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz = All product = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz */
 .allproduct {
     margin-top: 23px;
