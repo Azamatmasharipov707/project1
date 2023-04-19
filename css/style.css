@@ -596,11 +596,25 @@ ul.list>li:last-child {
     color: var(--black);
 }
 
+.allproduct__main-text {
+    font-size: 16px;
+    color: var(--black);
+    margin-bottom: 23px;
+}
+
+.allproduct__main-txt {
+    font-size: 29px;
+    color: #D94242;
+    margin-bottom: 30px;
+}
+
 .allproduct__right-btns {
     display: flex;
     align-items: center;
     column-gap: 12px;
+    margin-bottom: 30px;
 }
+
 .allproduct__right-btns button {
     width: 29px;
     height: 29px;
