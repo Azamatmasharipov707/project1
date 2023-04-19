@@ -542,6 +542,7 @@ ul.list>li:last-child {
 .allproduct-menu li a{
     color: var(--all-product);
     padding: 10px;
+    font-size: 15px;
 }
 
 .allproduct-menu li a i {
@@ -571,59 +572,54 @@ ul.list>li:last-child {
     display: flex;
 }
 
-
-/* ================================================ allproducts =========================================<M.J> */
-
-.allproducts__txt1{
-    font-family: var(--Poppins);
-    font-weight: 400;
-    font-size: 16px;
-    margin-top: 195px;
-    align-items: center;
-    justify-content: center;
-    display: flex;    
+/* =========================================allproduct right====================== */
+.allproduct__main-title {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.reted {
+    margin-bottom: 34px;
+}
+.reted i {
+    color: #FFC700;
 }
 
-
-.allproducts__img1{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    
-}
-.allproducts__txt2{
-  font-family: var(--Poppins);
-   font-weight: 400;
-   font-size: 18px;
-   margin-top: 198px;
-   align-items: center;
-   justify-content: center;
-   display: flex;
-}
-
-
-.allproducts__img2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 120px;
-}
-
-
-.allproducts__title{
-    display: flex;
-    align-items: center;
-    font-family: var(--Poppins);
-    font-weight: 400;
-    font-size: 20px;
-    margin-bottom: 140px;
-}
-
-
-.allproducts__btn{
-    display: flex;
+.allproduct__main-title2 {
     font-size: 17px;
-    font-weight: 700;
-    justify-content: center;
-    margin-bottom: 182px;
+    font-weight: 500;
+    color:#7C7B7B;
+    margin-bottom: 25px;
+}
+
+.allproduct__main-title2 span {
+    color: var(--black);
+}
+
+.allproduct__main-text {
+    font-size: 16px;
+    color: var(--black);
+    margin-bottom: 23px;
+}
+
+.allproduct__main-txt {
+    font-size: 29px;
+    color: #D94242;
+    margin-bottom: 30px;
+}
+
+.allproduct__right-btns {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-bottom: 30px;
+}
+
+.allproduct__right-btns button {
+    width: 29px;
+    height: 29px;
+    background: var(--grey);
+    border: none;
+    border-radius: 50%;
+    font-size: 25px;
 }
