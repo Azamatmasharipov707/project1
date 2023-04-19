@@ -509,7 +509,35 @@ ul.list > li:last-child {
 }
 
 .allproduct-menu li a i {
+<<<<<<< HEAD
     border: 2px solid #000000;
 }
 
 /* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz = All product desctripsion = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz */
+=======
+    color: #000;
+}
+
+
+/* =========================================All product images========================== */
+.allproduct__banner {
+    width: 420px;
+}
+
+.allproduct__images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.allproduct__img {
+    width: 80px;
+    height: 90px;
+    border: 1px solid var(--grey);
+    margin: 0 15px;
+    object-fit: cover;
+}
+
+.allproduct__imgs {
+    display: flex;
+}
+>>>>>>> be817577976aac042d0cf390b9f48287323aa628
