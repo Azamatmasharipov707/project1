@@ -570,3 +570,60 @@ ul.list>li:last-child {
 .allproduct__imgs {
     display: flex;
 }
+
+
+/* ================================================ allproducts =========================================<M.J> */
+
+.allproducts__txt1{
+    font-family: var(--Poppins);
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 195px;
+    align-items: center;
+    justify-content: center;
+    display: flex;    
+}
+
+
+.allproducts__img1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.allproducts__txt2{
+  font-family: var(--Poppins);
+   font-weight: 400;
+   font-size: 18px;
+   margin-top: 198px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+}
+
+
+.allproducts__img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+
+.allproducts__title{
+    display: flex;
+    align-items: center;
+    font-family: var(--Poppins);
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 140px;
+}
+
+
+.allproducts__btn{
+    display: flex;
+    font-size: 17px;
+    font-weight: 700;
+    justify-content: center;
+    margin-bottom: 182px;
+}
