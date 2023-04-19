@@ -21,7 +21,7 @@ plus.addEventListener('click', () => {
 })
 
 min.addEventListener('click', () => {
-    if (indicator.innerHTML > 0) {
+    if (indicator.innerHTML > 1) {
         indicator.innerHTML-- 
         sum.innerHTML = count * indicator.innerHTML
     }
