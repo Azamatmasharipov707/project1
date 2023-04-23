@@ -702,3 +702,39 @@ ul.list>li:last-child {
 .star:hover {
     background: yellow;
 }
+
+.allproducts__txt1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 133px 0 88px;
+}
+
+.allproducts__txt2{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+
+.allproducts__title{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 140px 0 39px;
+}
+
+.allproducts__btn{
+    text-align: center;
+}
+
+
+/* ================================ Review section start ======================= */
+
+.review__boxes-title{
+    font-family: var(--Poppins);
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 17px;
+}
+
