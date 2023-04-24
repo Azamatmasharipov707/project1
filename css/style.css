@@ -509,6 +509,16 @@ ul.list>li:last-child {
     margin: 21px 0 55px;
 }
 
+.headphone__desc button{
+    border: none;
+}
+
+.headphone__desc button a{
+    padding: 10px 15px;
+    
+}
+
+
 /* ----------------------------------- Blog start ----------------------------- */
 .blog {
     margin-bottom: 90px;
@@ -658,6 +668,7 @@ ul.list>li:last-child {
 }
 .reted i {
     color: #FFC700;
+   
 }
 
 .allproduct__main-title2 {
@@ -731,10 +742,80 @@ ul.list>li:last-child {
 
 /* ================================ Review section start ======================= */
 
+.review__boxes{
+    margin: 48px 0;
+}
+
 .review__boxes-title{
     font-family: var(--Poppins);
     font-weight: 500;
     font-size: 22px;
-    margin-bottom: 17px;
+    margin-bottom:  17px;
 }
 
+.review__img{
+    margin-right: 19px;
+    max-width: 59px;
+    width: 100%;
+    height: 59px;
+   
+}
+
+.review__tile{
+    font-family: var(--Poppins);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.review__box-txt{
+    font-family: var(--Poppins);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    color: var(--all-product);
+    margin: 25px 0 43px;
+}
+
+.review__pages{
+    justify-content: right;
+   
+}
+
+.pages__list{
+    align-items: center;
+}
+
+.pages__controller{
+    font-size: 16px;
+    margin: 0 21px 0;
+    color: var(--all-product);
+    background: none;
+    border: none;
+    padding: 10px;
+    
+}
+
+.pages__controller:hover{
+    background: var(--all-product);
+    color: var(--white);
+    border: 30px;
+    cursor: pointer;
+
+
+}
+
+
+.pages__link{
+    font-size: 22px;
+    font-family: var(--Poppins);
+    font-weight: 400;
+    color: var(--all-product);
+    line-height: 33px;
+    padding: 1px 14px;
+}
+
+.pages__link:hover{
+    background: var(--all-product);
+    color: var(--white);
+    
+}
